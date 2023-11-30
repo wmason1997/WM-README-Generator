@@ -11,6 +11,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'tableOfContents',
+        message: 'Please list your table of contents for this README?',
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'How would you describe your project?',
     },
@@ -47,11 +52,21 @@ const questions = [
 
 ];
 
+inquirer
+    .prompt(questions)
+    //.then writeToFile()
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    // like the generateHTML arrow function in mini-project
+    // mimic the Example readme template I have made in this repo
+    // wrap it in backticks and writeToFile
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    // does this just clear the previously entered inquirer information?
+}
 
 // Function call to initialize app
 init();
