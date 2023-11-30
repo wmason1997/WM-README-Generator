@@ -1,14 +1,15 @@
 {
-  "name": "static-site",
+  "name": "wm-readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "hi",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
+    "inquirer": "^8.2.4"
   }
 }
