@@ -54,6 +54,8 @@ const questions = [
 
 inquirer
     .prompt(questions)
+
+    // do something with a then to be able to feed a fileName and the needed data
     //.then writeToFile()
 
 // TODO: Create a function to write README file
@@ -70,3 +72,7 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
+
+// ALSO NEED TOC to be clickable
