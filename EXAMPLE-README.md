@@ -1,9 +1,7 @@
-# Title template literal
+# ${projectTitle}
 
 ## Table of Contents
-table of contents template literal
-${tableOfContents} // may not require a table of contents
-We just want this to click down to the listed options maybe
+NEED TO SORT OUT CLICK TO JUMP
 
 ## Description
 description template literal
@@ -29,4 +27,4 @@ ${tests}
 
 ## Questions
 Please feel free to reach out to me with questions or suggestions for this app.
-My GitHub user name ${} and my email is ${}
+My GitHub user name ${GitHubProfile} and my email is ${email}

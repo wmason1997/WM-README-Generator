@@ -11,11 +11,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'tableOfContents',
-        message: 'Please list your table of contents for this README?',
-    },
-    {
-        type: 'input',
         name: 'description',
         message: 'How would you describe your project?',
     },
@@ -52,27 +47,107 @@ const questions = [
 
 ];
 
-inquirer
-    .prompt(questions)
+const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
+`# ${projectTitle}
 
-    // do something with a then to be able to feed a fileName and the needed data
-    //.then writeToFile()
+## Table of Contents
+NEED TO SORT OUT CLICK TO JUMP
+
+## Description
+description template literal
+${description}
+
+
+## Installation Instructions
+installation instructions template literal
+${installationInstructions}
+
+## Usage Information
+usage information template literal
+${usageInstructions}
+
+## Contribution Guidelines
+contribution guidelines template literals
+${contributionGuidelines}
+
+## Tests
+tests template literals
+what are tests???
+${tests}
+
+## Questions
+Please feel free to reach out to me with questions or suggestions for this app.
+My GitHub user name ${GitHubProfile} and my email is ${email}`
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     // like the generateHTML arrow function in mini-project
     // mimic the Example readme template I have made in this repo
     // wrap it in backticks and writeToFile
+   
+    // MDPageContent = generateMD(data)
+    // fs.writeFile()
+
+    // const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
+    // `# ${projectTitle}
+    
+    // ## Table of Contents
+    // NEED TO SORT OUT CLICK TO JUMP
+    
+    // ## Description
+    // description template literal
+    // ${description}
+    
+    
+    // ## Installation Instructions
+    // installation instructions template literal
+    // ${installationInstructions}
+    
+    // ## Usage Information
+    // usage information template literal
+    // ${usageInstructions}
+    
+    // ## Contribution Guidelines
+    // contribution guidelines template literals
+    // ${contributionGuidelines}
+    
+    // ## Tests
+    // tests template literals
+    // what are tests???
+    // ${tests}
+    
+    // ## Questions
+    // Please feel free to reach out to me with questions or suggestions for this app.
+    // My GitHub user name ${GitHubProfile} and my email is ${email}`
+
+    // const fileName = `${projectTitle.split(' ').join('')}-README.md`;
+
+    fs.writeFile(fileName, generateMD, (err) =>
+    err ? console.log(err) : console.log('Successfully created a project README!')
+        );
 };
 
 // TODO: Create a function to initialize app
 function init() {
-    // does this just clear the previously entered inquirer information?
+    inquirer
+    .prompt(questions)
+    .then((answers) => {
+
+
+        // const fileName = `${answers.projectTitle.split(' ').join('')}-README.md`;
+
+        //const MDPageContent = generateMD(data);
+
+        const fileNameHere = `${answers.projectTitle.split(' ').join('')}-README.md`;
+        const generateMDHere = generateMD(answers);
+
+        writeToFile(fileNameHere, generateMDHere);
+    });
+
 }
 
 // Function call to initialize app
 init();
 
 
-
-// ALSO NEED TOC to be clickable
