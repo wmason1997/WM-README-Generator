@@ -2,6 +2,40 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
+// generateMD template for READMEs
+const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
+`# ${projectTitle}
+
+## Table of Contents
+NEED TO SORT OUT CLICK TO JUMP
+
+## Description
+description template literal
+${description}
+
+
+## Installation Instructions
+installation instructions template literal
+${installationInstructions}
+
+## Usage Information
+usage information template literal
+${usageInstructions}
+
+## Contribution Guidelines
+contribution guidelines template literals
+${contributionGuidelines}
+
+## Tests
+tests template literals
+what are tests???
+${tests}
+
+## Questions
+Please feel free to reach out to me with questions or suggestions for this app.
+My GitHub user name ${GitHubProfile} and my email is ${email}`
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -47,41 +81,9 @@ const questions = [
 
 ];
 
-const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
-`# ${projectTitle}
-
-## Table of Contents
-NEED TO SORT OUT CLICK TO JUMP
-
-## Description
-description template literal
-${description}
-
-
-## Installation Instructions
-installation instructions template literal
-${installationInstructions}
-
-## Usage Information
-usage information template literal
-${usageInstructions}
-
-## Contribution Guidelines
-contribution guidelines template literals
-${contributionGuidelines}
-
-## Tests
-tests template literals
-what are tests???
-${tests}
-
-## Questions
-Please feel free to reach out to me with questions or suggestions for this app.
-My GitHub user name ${GitHubProfile} and my email is ${email}`
-
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileName, contentText) {
     // like the generateHTML arrow function in mini-project
     // mimic the Example readme template I have made in this repo
     // wrap it in backticks and writeToFile
@@ -123,7 +125,7 @@ function writeToFile(fileName, data) {
 
     // const fileName = `${projectTitle.split(' ').join('')}-README.md`;
 
-    fs.writeFile(fileName, generateMD, (err) =>
+    fs.writeFile(fileName, contentText, (err) =>
     err ? console.log(err) : console.log('Successfully created a project README!')
         );
 };
