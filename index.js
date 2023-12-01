@@ -7,6 +7,8 @@ const fs = require('fs');
 const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
 `# ${projectTitle}
 
+## Add license icon
+
 ## Table of Contents
 NEED TO SORT OUT CLICK TO JUMP
 
@@ -14,27 +16,26 @@ NEED TO SORT OUT CLICK TO JUMP
 description template literal
 ${description}
 
+## License
+ADD LICENSE STUFF
+
 
 ## Installation Instructions
-installation instructions template literal
 ${installationInstructions}
 
 ## Usage Information
-usage information template literal
 ${usageInstructions}
 
 ## Contribution Guidelines
-contribution guidelines template literals
 ${contributionGuidelines}
 
 ## Tests
-tests template literals
-what are tests???
 ${tests}
 
 ## Questions
 Please feel free to reach out to me with questions or suggestions for this app.
 My GitHub user name ${GitHubProfile} and my email is ${email}`
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -84,50 +85,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, contentText) {
-    // like the generateHTML arrow function in mini-project
-    // mimic the Example readme template I have made in this repo
-    // wrap it in backticks and writeToFile
-   
-    // MDPageContent = generateMD(data)
-    // fs.writeFile()
-
-    // const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
-    // `# ${projectTitle}
-    
-    // ## Table of Contents
-    // NEED TO SORT OUT CLICK TO JUMP
-    
-    // ## Description
-    // description template literal
-    // ${description}
-    
-    
-    // ## Installation Instructions
-    // installation instructions template literal
-    // ${installationInstructions}
-    
-    // ## Usage Information
-    // usage information template literal
-    // ${usageInstructions}
-    
-    // ## Contribution Guidelines
-    // contribution guidelines template literals
-    // ${contributionGuidelines}
-    
-    // ## Tests
-    // tests template literals
-    // what are tests???
-    // ${tests}
-    
-    // ## Questions
-    // Please feel free to reach out to me with questions or suggestions for this app.
-    // My GitHub user name ${GitHubProfile} and my email is ${email}`
-
-    // const fileName = `${projectTitle.split(' ').join('')}-README.md`;
 
     fs.writeFile(fileName, contentText, (err) =>
     err ? console.log(err) : console.log('Successfully created a project README!')
         );
+
 };
 
 // TODO: Create a function to initialize app
@@ -135,11 +97,6 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) => {
-
-
-        // const fileName = `${answers.projectTitle.split(' ').join('')}-README.md`;
-
-        //const MDPageContent = generateMD(data);
 
         const fileNameHere = `${answers.projectTitle.split(' ').join('')}-README.md`;
         const generateMDHere = generateMD(answers);
