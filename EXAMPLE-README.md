@@ -1,7 +1,7 @@
 # ${projectTitle}
 
-## Table of Contents
-NEED TO SORT OUT CLICK TO JUMP
+## License spot
+figure out
 
 ## Table of Contents
 * [Description](#description)
