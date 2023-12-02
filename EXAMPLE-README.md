@@ -4,19 +4,19 @@
 NEED TO SORT OUT CLICK TO JUMP
 
 ## Table of Contents
-* [Description](#Description)
-* [Installation Instructions](#Installation-Instructions)
-* [Usage Instructions](#Usage-Instructions)
-* [Contribution-Guidelines](#Contribution-Guidelines)
+* [Description](#description)
+* [Installation Instructions](#installation-instructions)
+* [Usage Instructions](#usage-instructions)
+* [Contribution-Guidelines](#contribution-guidelines)
 * [Tests](#tests)
-* [Questions](#Questions)
+* [Questions](#questions)
 * [Section 1](#section-1)
 * [Section 2](#section-2)
 * [Section 3](#section-3)
 
 
 
-## Description <a name="Description"></a> 
+## Description <a name="description"></a> 
 
 
 
@@ -54,7 +54,7 @@ fill
 fill
 fill 
 
-##<a name="Installation-Instructions"></a> Installation Instructions
+##<a name="installation-instructions"></a> Installation Instructions
 installation instructions template literal
 
 fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
@@ -94,7 +94,7 @@ fill
 
 
 
-## Usage Instructions <a name="Usage-Instructions"></a>
+## Usage Instructions <a name="usage-instructions"></a>
 usage information template literal
 
 fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
@@ -128,7 +128,7 @@ fill
 fill
 fill 
 
-## Contribution Guidelines <a name="Contribution-Guidelines"></a>
+## Contribution Guidelines <a name="contribution-guidelines"></a>
 contribution guidelines template literals
 
 fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
@@ -198,7 +198,7 @@ fill
 fill 
 
 
-## Questions <a name="Questions"></a>
+## Questions <a name="questions"></a>
 Please feel free to reach out to me with questions or suggestions for this app.
 
 
