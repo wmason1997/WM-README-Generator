@@ -10,8 +10,6 @@ NEED TO SORT OUT CLICK TO JUMP
 * [Contribution-Guidelines](#contribution-guidelines)
 * [Tests](#tests)
 * [Questions](#questions)
-* [Section 1](#section-1)
-* [Section 2](#section-2)
 * [Section 3](#section-3)
 
 
@@ -20,75 +18,8 @@ NEED TO SORT OUT CLICK TO JUMP
 
 
 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-
-#<a name="section-1"></a> Section 1
-
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-
-##<a name="installation-instructions"></a> Installation Instructions
+## Installation Instructions <a name="installation-instructions"></a> 
 installation instructions template literal
-
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-
-#<a name="section-2"></a>
 
 
 
@@ -97,105 +28,14 @@ fill
 ## Usage Instructions <a name="usage-instructions"></a>
 usage information template literal
 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-
 ## Contribution Guidelines <a name="contribution-guidelines"></a>
 contribution guidelines template literals
 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
 
 ## Tests <a name="tests"></a> 
 tests template literals
 what are tests???
 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
-fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-fill
-fill
-fill
-fill 
 
 
 ## Questions <a name="questions"></a>
@@ -205,4 +45,3 @@ Please feel free to reach out to me with questions or suggestions for this app.
 
 ## Section 3 <a name="section-3"></a>
 
-lksoi
