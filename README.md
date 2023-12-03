@@ -15,6 +15,8 @@ This README Generator project is designed to help myself and other programmers w
 ## Credits <a name="credits"></a>
 [https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file](https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file) and ChatGPT helped me to realize that the "link format in Markdown is generally lowercase and hyphen-separated" after an hour of failed debugging and that fixed it.
 
+[https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file](https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file) and after an hour of it not working and me trying different things, ChatGPT told me the "link format in Markdown is generally lowercase and hyphen-separated." So, I tried that and that worked.
+
 ## License
 ADD LICENSE STUFF
 
@@ -42,7 +44,5 @@ npm run test
 
 ## Questions
 Please feel free to reach out to me with questions or suggestions for this app.
-My GitHub user name wmason1997 and my email is williamcmason1997@gmail.com
-
-## Credits 
-[https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file](https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file) and after an hour of it not working and me trying different things, ChatGPT told me the "link format in Markdown is generally lowercase and hyphen-separated." So, I tried that and that worked.
+My GitHub user name wmason1997 and here is my profile: [https://github.com/wmason1997](https://github.com/wmason1997).
+My email is williamcmason1997@gmail.com
