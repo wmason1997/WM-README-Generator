@@ -3,6 +3,7 @@
 ## Table of Contents
 * [Description](#description)
 * [Installation Instructions](#installation-instructions)
+* [Credits](#credits)
 * [Usage Instructions](#usage-instructions)
 * [Contribution-Guidelines](#contribution-guidelines)
 * [Tests](#tests)
@@ -10,6 +11,9 @@
 
 ## Description <a name="description"></a> 
 This README Generator project is designed to help myself and other programmers who are interested quickly create READMEs for their applications by just answering a few questions through a command-line application. This way, more consideration can be given to the development and the README is more easily constructed.
+
+## Credits <a name="credits"></a>
+[https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file](https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file) and ChatGPT helped me to realize that the "link format in Markdown is generally lowercase and hyphen-separated" after an hour of failed debugging and that fixed it.
 
 ## License
 ADD LICENSE STUFF

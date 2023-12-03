@@ -37,7 +37,8 @@ ${tests}
 
 ## Questions
 Please feel free to reach out to me with questions or suggestions for this app.
-My GitHub user name ${GitHubProfile} and my email is ${email}
+My GitHub user name ${GitHubProfile} and here is my profile: [https://github.com/${GitHubProfile}](https://github.com/${GitHubProfile}).
+My email is ${email}
 `
 
 
