@@ -4,47 +4,6 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 
-// generateMD template for READMEs
-// const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
-// `# ${projectTitle}
-
-// ## Table of Contents
-// * [Description](#description)
-// * [Installation Instructions](#installation-instructions)
-// * [Usage Instructions](#usage-instructions)
-// * [Contribution-Guidelines](#contribution-guidelines)
-// * [Tests](#tests)
-// * [Questions](#questions)
-
-// ## Description <a name="description"></a> 
-// ${description}
-
-// ## License
-// ADD LICENSE STUFF
-
-// ## Installation Instructions <a name="installation-instructions"></a>
-// ${installationInstructions}
-
-
-// ## Usage Instructions <a name="usage-instructions"></a>
-// ${usageInstructions}
-
-// ## Contribution Guidelines <a name="contribution-guidelines"></a>
-// ${contributionGuidelines}
-
-// ## Tests <a name="tests"></a> 
-// ${tests}
-
-
-// ## Questions
-// Please feel free to reach out to me with questions or suggestions for this app.
-// My GitHub user name ${GitHubProfile} and here is my profile: [https://github.com/${GitHubProfile}](https://github.com/${GitHubProfile}).
-// My email is ${email}
-// `
-
-
-
-
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -66,6 +25,12 @@ const questions = [
         type: 'input',
         name: 'usageInstructions',
         message: 'What are some usage instructions for this project?',
+    },
+    {
+        type: 'list',
+        message: 'Which license is your application covered under?',
+        name: 'projectLicense',
+        choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License 3 (GPL-3.0)', 'Berkeley Software Distribution License (BSD)', 'Mozilla Public License 2.0 (MPL 2.0)', 'Internet Systems Consortium (ISC) License'],
     },
     {
         type: 'input',

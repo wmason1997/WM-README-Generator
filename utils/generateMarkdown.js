@@ -18,6 +18,7 @@ function generateMarkdown(data) {
 * [Description](#description)
 * [Installation Instructions](#installation-instructions)
 * [Usage Instructions](#usage-instructions)
+* [License](#license)
 * [Contribution-Guidelines](#contribution-guidelines)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -34,6 +35,9 @@ ${data.installationInstructions}
 
 ## Usage Instructions <a name="usage-instructions"></a>
 ${data.usageInstructions}
+
+## License <a name="license"></a>
+${data.projectLicense}
 
 ## Contribution Guidelines <a name="contribution-guidelines"></a>
 ${data.contributionGuidelines}
