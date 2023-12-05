@@ -13,10 +13,11 @@
 This README Generator project is designed to help myself and other programmers who are interested quickly create READMEs for their applications by just answering a few questions through a command-line application. This way, more consideration can be given to the development and the README is more easily constructed.
 
 ## Credits <a name="credits"></a>
+This project was refactored from the starter code in the Develop folder of the 02-Challenge folder with the 09-NodeJS module from the [UCSD-VIRT-FSF-PT-09-2023-U-LOLC](https://git.bootcampcontent.com/University-of-California---San-Diego/UCSD-VIRT-FSF-PT-09-2023-U-LOLC) GitLab repository. Thank you, user mvpache!
+
 [https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file](https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file) and ChatGPT helped me to realize that the "link format in Markdown is generally lowercase and hyphen-separated" after an hour of failed debugging and that fixed it.
 
-[https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file](https://stackoverflow.com/questions/64229311/how-do-you-create-a-link-to-a-specified-section-of-your-readme-md-file) and after an hour of it not working and me trying different things, ChatGPT told me the "link format in Markdown is generally lowercase and hyphen-separated." So, I tried that and that worked.
-
+For the license rendering, I did a quick Google search and found
 [https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d](https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d) for badge license examples and badge rendering URLs. Thank you users kofiav and lukas-h!
 
 ## License

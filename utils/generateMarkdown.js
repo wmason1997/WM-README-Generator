@@ -64,14 +64,12 @@ function renderLicenseLink(license) {
   }
 }
 
-
-
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return `## License <a name="license"></a>
-  ${license}
-  ${renderLicenseLink(license)}
+  This project's license is ${license}.<br>  
+  The website for this license is ${renderLicenseLink(license)}.
   `;
 
 }
@@ -100,13 +98,7 @@ ${data.installationInstructions}
 ## Usage Instructions <a name="usage-instructions"></a>
 ${data.usageInstructions}
 
-HERE 
-
 ${renderLicenseSection(data.license)}
-
-## License <a name="license"></a>
-${data.license}
-${renderLicenseLink(data.license)}
 
 ## Contribution Guidelines <a name="contribution-guidelines"></a>
 ${data.contributionGuidelines}
@@ -118,7 +110,6 @@ ${data.tests}
 Please feel free to reach out to me with questions or suggestions for this app.
 My GitHub user name ${data.GitHubProfile} and here is my profile: [https://github.com/${data.GitHubProfile}](https://github.com/${data.GitHubProfile}).
 My email is ${data.email}
-
 `;
 }
 
