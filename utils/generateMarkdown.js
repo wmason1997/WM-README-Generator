@@ -3,7 +3,6 @@
 function renderLicenseBadge(license) {
   switch(license) {
     case 'MIT License':
-    // return segment for badge
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
     break;
 
@@ -24,22 +23,58 @@ function renderLicenseBadge(license) {
     return '';
     break;
 
-
     default:
     // return empty string
     return '';
-
+    break;
   }
 
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  switch(license) {
+    case 'MIT License':
+    return '[https://opensource.org/license/mit/](https://opensource.org/license/mit/)';
+    break;
+
+    case 'Apache License 2.0':
+    return '[https://opensource.org/license/apache-2-0/](https://opensource.org/license/apache-2-0/)';
+    break;
+
+    case 'GNU General Public License 3 (GPL-3.0)':
+    return '[https://www.gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0)';
+    break;
+
+    case 'Mozilla Public License 2.0 (MPL 2.0)':
+    return '[https://opensource.org/license/mpl-2-0/](https://opensource.org/license/mpl-2-0/)';
+    break;
+
+    case 'Internet Systems Consortium (ISC) License':
+    return '[https://opensource.org/license/isc-license-txt/](https://opensource.org/license/isc-license-txt/)';
+    return '';
+    break;
+
+    default:
+    // return empty string
+    return '';
+    break;
+
+  }
+}
+
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  return `## License <a name="license"></a>
+  ${license}
+  ${renderLicenseLink(license)}
+  `;
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -65,8 +100,13 @@ ${data.installationInstructions}
 ## Usage Instructions <a name="usage-instructions"></a>
 ${data.usageInstructions}
 
+HERE 
+
+${renderLicenseSection(data.license)}
+
 ## License <a name="license"></a>
 ${data.license}
+${renderLicenseLink(data.license)}
 
 ## Contribution Guidelines <a name="contribution-guidelines"></a>
 ${data.contributionGuidelines}
