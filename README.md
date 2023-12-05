@@ -2,6 +2,7 @@
 
 ## Table of Contents
 * [Description](#description)
+* [Video Example Walkthrough](#example) 
 * [Credits](#credits)
 * [Installation Instructions](#installation-instructions)
 * [Usage Instructions](#usage-instructions)
@@ -10,6 +11,9 @@
 
 ## Description <a name="description"></a> 
 This README Generator project is designed to help myself and other programmers who are interested quickly create READMEs for their applications by just answering a few questions through a command-line application. This way, more consideration can be given to the development and the README is more easily constructed.
+
+## Video Example Walkthrough <a name="example"></a>
+Here is a link to the video example walkthrough hosted on Google Drive: [https://drive.google.com/file/d/1Ik7gey2IhqkqWZA1ztJeKy3ZvpuDRKQK/view?usp=sharing](https://drive.google.com/file/d/1Ik7gey2IhqkqWZA1ztJeKy3ZvpuDRKQK/view?usp=sharing).
 
 ## Credits <a name="credits"></a>
 This project was refactored from the starter code in the Develop folder of the 02-Challenge folder with the 09-NodeJS module from the [UCSD-VIRT-FSF-PT-09-2023-U-LOLC](https://git.bootcampcontent.com/University-of-California---San-Diego/UCSD-VIRT-FSF-PT-09-2023-U-LOLC) GitLab repository. Thank you, user mvpache!
