@@ -2,11 +2,10 @@
 
 ## Table of Contents
 * [Description](#description)
-* [Installation Instructions](#installation-instructions)
 * [Credits](#credits)
+* [Installation Instructions](#installation-instructions)
 * [Usage Instructions](#usage-instructions)
 * [Contribution-Guidelines](#contribution-guidelines)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Description <a name="description"></a> 
@@ -20,12 +19,12 @@ This project was refactored from the starter code in the Develop folder of the 0
 For the license rendering, I did a quick Google search and found
 [https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d](https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d) for badge license examples and badge rendering URLs. Thank you users kofiav and lukas-h!
 
-## License
-ADD LICENSE STUFF
-
 ## Installation Instructions <a name="installation-instructions"></a>
-github INIT INSTRUCTIONS FROM NOTEBOOK  
+Clone this repository down to your machine locally and then run
 
+```bash
+npm i
+```
 
 ## Usage Instructions <a name="usage-instructions"></a>
 The application will be invoked by using the following command in the integrated terminal:
@@ -36,14 +35,6 @@ node index.js
 
 ## Contribution Guidelines <a name="contribution-guidelines"></a>
 Be respectful.
-
-## Tests <a name="tests"></a> 
-The application will be invoked by using the following command in the integrated terminal:
-
-```bash
-npm run test
-```
-
 
 ## Questions
 Please feel free to reach out to me with questions or suggestions for this app.
