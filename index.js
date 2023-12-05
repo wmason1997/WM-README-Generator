@@ -5,42 +5,42 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // generateMD template for READMEs
-const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
-`# ${projectTitle}
+// const generateMD = ({ projectTitle, description, installationInstructions, usageInstructions, contributionGuidelines, tests, GitHubProfile, email}) =>
+// `# ${projectTitle}
 
-## Table of Contents
-* [Description](#description)
-* [Installation Instructions](#installation-instructions)
-* [Usage Instructions](#usage-instructions)
-* [Contribution-Guidelines](#contribution-guidelines)
-* [Tests](#tests)
-* [Questions](#questions)
+// ## Table of Contents
+// * [Description](#description)
+// * [Installation Instructions](#installation-instructions)
+// * [Usage Instructions](#usage-instructions)
+// * [Contribution-Guidelines](#contribution-guidelines)
+// * [Tests](#tests)
+// * [Questions](#questions)
 
-## Description <a name="description"></a> 
-${description}
+// ## Description <a name="description"></a> 
+// ${description}
 
-## License
-ADD LICENSE STUFF
+// ## License
+// ADD LICENSE STUFF
 
-## Installation Instructions <a name="installation-instructions"></a>
-${installationInstructions}
-
-
-## Usage Instructions <a name="usage-instructions"></a>
-${usageInstructions}
-
-## Contribution Guidelines <a name="contribution-guidelines"></a>
-${contributionGuidelines}
-
-## Tests <a name="tests"></a> 
-${tests}
+// ## Installation Instructions <a name="installation-instructions"></a>
+// ${installationInstructions}
 
 
-## Questions
-Please feel free to reach out to me with questions or suggestions for this app.
-My GitHub user name ${GitHubProfile} and here is my profile: [https://github.com/${GitHubProfile}](https://github.com/${GitHubProfile}).
-My email is ${email}
-`
+// ## Usage Instructions <a name="usage-instructions"></a>
+// ${usageInstructions}
+
+// ## Contribution Guidelines <a name="contribution-guidelines"></a>
+// ${contributionGuidelines}
+
+// ## Tests <a name="tests"></a> 
+// ${tests}
+
+
+// ## Questions
+// Please feel free to reach out to me with questions or suggestions for this app.
+// My GitHub user name ${GitHubProfile} and here is my profile: [https://github.com/${GitHubProfile}](https://github.com/${GitHubProfile}).
+// My email is ${email}
+// `
 
 
 
