@@ -29,8 +29,8 @@ const questions = [
     {
         type: 'list',
         message: 'Which license is your application covered under?',
-        name: 'projectLicense',
-        choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License 3 (GPL-3.0)', 'Berkeley Software Distribution License (BSD)', 'Mozilla Public License 2.0 (MPL 2.0)', 'Internet Systems Consortium (ISC) License'],
+        name: 'license',
+        choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License 3 (GPL-3.0)', 'Mozilla Public License 2.0 (MPL 2.0)', 'Internet Systems Consortium (ISC) License'],
     },
     {
         type: 'input',
