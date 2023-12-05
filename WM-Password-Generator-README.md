@@ -1,4 +1,4 @@
-# LegitTest2
+# WM-Password-Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,13 +12,13 @@
 * [Questions](#questions)
 
 ## Description <a name="description"></a> 
-trying to see if there are issues
+This projects helps a user to create a password with certain parameters.
 
 ## Installation <a name="installation-instructions"></a>
-npm i
+Install a webbrowser and pay for internet access.
 
 ## Usage <a name="usage-instructions"></a>
-use your best judgment
+Go to https://github.com/wmason1997/WM-Password-Generator and go to deployed application section at the bottom of screen.
 
 ## License <a name="license"></a>
   This project's license is MIT License.<br>  
@@ -26,10 +26,10 @@ use your best judgment
   
 
 ## Contributing <a name="contribution-guidelines"></a>
-be cool as you can
+Be respectful and reach out if any issues are discovered please.
 
 ## Tests <a name="tests"></a> 
-test away
+There are no tests for this project yet, but eventually 'npm run test' would do them.
 
 ## Questions
 Please feel free to reach out to me with questions or suggestions for this app.<br>
