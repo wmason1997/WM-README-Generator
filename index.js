@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // generateMD template for READMEs
@@ -106,7 +107,7 @@ function init() {
     .then((answers) => {
 
         const fileNameHere = `${answers.projectTitle.split(' ').join('')}-README.md`;
-        const generateMDHere = generateMD(answers);
+        const generateMDHere = generateMarkdown(answers);
 
         writeToFile(fileNameHere, generateMDHere);
     });
