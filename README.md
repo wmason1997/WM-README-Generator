@@ -25,6 +25,10 @@ Clone this repository down to your machine locally and then run
 ```bash
 npm i
 ```
+Make sure you have inquirer version 8.2.4 installed
+```bash
+npm i inquirer@8.2.4
+```
 
 ## Usage Instructions <a name="usage-instructions"></a>
 The application will be invoked by using the following command in the integrated terminal:
@@ -34,7 +38,7 @@ node index.js
 ```
 
 ## Contribution Guidelines <a name="contribution-guidelines"></a>
-Be respectful.
+Be respectful and descriptive in your suggestions. If I do not respond quickly on here, please reach me at my email given in the questions section below. Thank you.
 
 ## Questions
 Please feel free to reach out to me with questions or suggestions for this app.
